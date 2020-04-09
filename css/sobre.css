@@ -1,0 +1,51 @@
+.interna-sobre {
+    background: url("../img/capa-sobre.jpg") no-repeat center;
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+}
+
+.interna-sobre h1 {
+    padding-top: 20px;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.interna-sobre p {
+    font-size: 18px;
+}
+
+.interna-sobre p:before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #fff;
+    border-radius: 0 0 10px 10px;
+    margin: -6px auto 10px auto;
+}
+
+/* missao, visao... */
+
+.subtitulo-interno {
+    margin: 40px 0 0 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.subtitulo-interno:after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #000;
+    border-radius: 0 0 10px 0px;
+    margin: 2px 0 10px 0;
+    text-align: left;
+}
+
+.nossa_loja {
+    margin-top: 40px;
+}

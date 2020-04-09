@@ -1,0 +1,29 @@
+.interna-sabores {
+    background: url("../img/capa-sabores.jpg") no-repeat center;
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+
+}
+
+.interna-sabores h1 {
+    padding-top: 20px;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.interna-sabores p {
+    font-size: 18px;
+}
+
+.interna-sabores p:before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #fff;
+    border-radius: 0 0 10px 10px;
+    margin: -6px auto 10px auto;
+}
+
