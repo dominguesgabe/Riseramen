@@ -1,3 +1,5 @@
+/* intro */
+
 .interna-sabores {
     background: url("../img/capa-sabores.jpg") no-repeat center;
     text-align: center;
@@ -27,3 +29,38 @@
     margin: -6px auto 10px auto;
 }
 
+/* li */
+
+.produto_item {
+    padding-top: 60px;
+}
+
+.produto_item h2 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: bold;
+    position: relative;
+    top: -165px;
+}
+
+.produto_item h2:before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 6px;
+    background: #fff;
+    border-radius:10px 10px 0 0;
+    margin: 0px auto;
+}
+
+.produto_item h2:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 6px;
+    background: #fff;
+    border-radius: 0 0 10px 10px;
+    margin: 0px auto;
+}
