@@ -167,6 +167,7 @@
     padding: 6px 45px;
     background-color: none;
     color: none;
+    text-transform: uppercase;
 }
 
 .form button:hover {
