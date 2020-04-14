@@ -1,0 +1,101 @@
+@media only screen and (min-width: 768px) and (max-width: 959px) { 
+
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+.header {
+	position: relative;
+}
+
+.header img {
+	padding-top: 5px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.header_menu {
+	text-align: center;
+	margin-bottom: 14px;
+}
+
+.introducao {
+	margin: 0;
+}
+
+.introducao-interna {
+	margin-top: 0;
+}
+
+.introducao h1 {
+	margin-top: -25px;
+	line-height: 60px;
+}
+
+.call-to-action {
+	padding-top: 20px;
+}
+
+.portfolio ul li img {
+	width: 300px;
+	object-fit: cover;
+}
+
+.diretrizes:after {
+	display: none;
+}
+
+.diretrizes img {
+	margin-bottom: 20px;
+}
+
+.diretrizes_lista li{
+    text-align: center;
+    margin: 0;
+}
+
+.diretrizes .diretrizes_lista p {
+	margin: 10px auto 0;
+	text-align: center;
+}
+
+.call-to-action p {
+	margin-top: 20px;
+}
+
+/* footer */
+
+.footer {
+	text-align: center;
+}
+
+.footer_contato ul li:nth-child(1), .footer_sobre p {
+	margin: 20px auto 0 auto;
+	text-align: center;
+}
+
+.footer h3:after {
+	margin: 0 auto;
+	border-radius: 0 0 10px 10px;
+}
+
+.footer_social ul li a{
+	margin: 20px auto 0 auto;
+}
+
+.copyright p {
+	padding: 10px 0 0 0;
+	font-size: 14px;
+}
+
+/* fim da home */
+
+/* sabores */
+
+
+
+
+
+}
