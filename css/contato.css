@@ -90,7 +90,7 @@
     text-transform: uppercase;
 }
 
-.form button:hover {
+.btn_send:hover {
     color: #7E1416;
     background-color: #000;
 }
