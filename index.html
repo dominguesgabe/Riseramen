@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/libs/modernizr.custom.45655.js"></script>
 </head>
 
 <body>
@@ -40,7 +41,7 @@
 
     </section>
 
-    <section class="sabores container">
+    <section class="sabores container animar">
         <h2 class="subtitulo">sabores</h2>
         <ul class="sabores_lista">
             
@@ -79,12 +80,19 @@
     <section class="portfolio">
         <div class="container">
             <h2 class="subtitulo">Imagens</h2>
-            <ul class="portfolio_lista">
-                <li class="grid-8"><img src="img/portfolio/naruto-portfolio.jpg" alt="ramen-naruto"></li>
-                <li class="grid-8"><img src="img/portfolio/carne-portfolio.jpg" alt="ramen-carne"></li>
-                <li class="grid-16"><img src="img/portfolio/sushi-portfolio.jpg" alt="ramen-sushi"></li>
-            </ul>
+            <ul class="portfolio_lista rslides">
+                <li>
+                    <div class="grid-8"><img src="img/portfolio/naruto-portfolio.jpg" alt="ramen-naruto"></div>
+                    <div class="grid-8"><img src="img/portfolio/carne-portfolio.jpg" alt="ramen-carne"></div>
+                    <div class="grid-16"><img src="img/portfolio/sushi-portfolio.jpg" alt="ramen-sushi"></div>
+                </il>
 
+                <li class="portfolio_lista">
+                    <div class="grid-8"><img src="img/portfolio/ramen-slide-2-2.png" alt="ramen-naruto"></div>
+                    <div class="grid-8"><img src="img/portfolio/ramen-slide-2-3.png" alt="ramen-carne"></div>
+                    <div class="grid-16"><img src="img/portfolio/ramen-slide-2.png" alt="ramen-sushi"></div>
+                </il>
+            </ul>
             <div class="call-to-action_white">
                 <p>veja mais pratos!</p>
                 <a href="sabores.html" class="btn">sabores</a>
@@ -157,6 +165,12 @@
             </div>
         </div>
     </footer>
+
+    <!-- javascript -->
+    <script src="js/libs/jquery-1.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <!-- javascript -->
 
 </body>
 </html>

@@ -142,3 +142,6 @@
     margin-bottom: 60px;
 }
 
+.maps:hover {
+    border: #000 6px solid;
+}

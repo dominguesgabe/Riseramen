@@ -94,8 +94,66 @@
 
 /* sabores */
 
+.produto_item h2 {
+	font-size: 38px;
+    top: -100px;
+    margin-bottom: -72px;
+}
 
+.icon_item img {
+	padding: 20px;
+}
 
+.produto_info p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.produto_info ul li {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 20px;
+    float: left;
+    width: 149px;
+    height: 50px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.orcamento {
+	margin: 0 auto;
+	height: 1000px;
+}
+
+.form {
+	padding-right: 0px;
+}
+
+.form input, .form textarea {
+	width: 300px;
+}
+
+/* contato */
+
+.orcamento_white {
+	margin-top: 40px;
+}
+
+.footer_social_contato h3 {
+    margin-bottom: 10px;
+}
+
+.footer_social_contato ul {
+	text-align: center;
+	letter-spacing: 10px;
+}
+
+.maps {
+	width: 80%;
+	margin-top: -175px;
+	object-fit: cover;
+}
 
 
 }

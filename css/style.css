@@ -16,6 +16,7 @@ p {
     padding: 8px 35px;
     border-radius: 5px;
     border: none;
+    transition: all ease-out .4s;
 }
 
 .btn.btn-preto:hover {
@@ -80,6 +81,7 @@ img {
     letter-spacing: .1em;
     font-size: 14px;
     padding: 10px 0;
+    transition: all ease-out .4s;
 }
 
 .header_menu ul li a:hover {
@@ -212,7 +214,7 @@ img {
     background-color: #fff;
 }
 
-.portfolio_lista li:last-child {
+.portfolio_lista div:last-of-type {
     margin-top: 20px;
 }
 
@@ -374,6 +376,7 @@ img {
 
 .footer_social ul li a:hover {
     border-color: #fff;
+    transition: all ease-out .4s;
 }
 
 .copyright {
@@ -382,3 +385,107 @@ img {
     color: #fff;
     padding: 10px 0;
 }
+
+/* rlides */
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img {
+    display: block;
+    height: auto;
+    width: 100%;
+    border: 0;
+}
+
+.rslides_tabs {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.rslides_tabs li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.rslides_tabs li a {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    color: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    text-indent: -200px;
+}
+
+.rslides_tabs li a:hover, .rslides_tabs li.rslides_here a{
+    background-color: #7E1416;
+}
+
+/* animate.css */
+
+.introducao h1,  .introducao blockquote,  .introducao .btn,
+.animar,  .animar-interno,  .introducao-interna h1,  .introducao-interna p,  .animar-interno {
+    opacity: 0;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  @-webkit-keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -20px, 0);
+      transform: translate3d(0, -20px, 0);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -20px, 0);
+      transform: translate3d(0, -20px, 0);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+  .fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+  }
+  
