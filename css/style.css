@@ -1,6 +1,6 @@
 /* estilos gerais */
 
-body {
+* {
     font-family: 'Baloo Thambi 2', cursive;
 }
 
@@ -60,18 +60,26 @@ img {
     top: 0;
     width: 100%;
     background: #7E1416;
-    padding: 8px 0;
+    padding: 10px 0;
     z-index: 10;
+    display: flex;
 }
 
-.header_menu {
-    text-align: right;
+.header img {
+    margin-top: -5px;
+}
+
+.container-flex {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex: 0 1 940px;
 }
 
 .header_menu ul li {
-    padding-top: 6px;
-    display: inline-block;
+    display: inline-flex;
     margin-left: 25px;
+    padding-top: 6px;
 }
 
 .header_menu ul li a {
@@ -79,8 +87,7 @@ img {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: .1em;
-    font-size: 14px;
-    padding: 10px 0;
+    font-size: 16px;
     transition: all ease-out .4s;
 }
 
@@ -98,7 +105,7 @@ img {
     height: 400px;
     background: url(../img/capa-riseramen.jpg) no-repeat center;
     background-size: cover;
-    margin-top: 56px;
+    margin-top: 55px;
     text-align: center;
     font-family: 'Baloo Thambi 2', cursive;
     padding-top: 60px;
