@@ -42,6 +42,12 @@
     margin-bottom: 20px;
 }
 
+.orcamento_dados ul li a:hover {
+    color: #7E1416;
+    background-color: #000;
+
+}
+
 .form {
     padding-right: 60px;
 }
@@ -134,14 +140,14 @@
     border-color: #000;
 }
 
-/* maps */
-
-.maps {
-    border: #7E1416 6px solid;
-    border-radius: 6px;
+#form_orcamento {
     margin-bottom: 60px;
 }
 
-.maps:hover {
-    border: #000 6px solid;
+/* maps */
+
+.api-maps {
+    border-radius: 10px;
+    margin-bottom: 60px;
+    border-color: #7E1416;
 }
