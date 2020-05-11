@@ -96,7 +96,7 @@
     text-transform: uppercase;
 }
 
-.btn_send:hover {
+.orcamento_white.form_white button:hover {
     color: #7E1416;
     background-color: #000;
 }

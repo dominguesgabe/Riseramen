@@ -127,6 +127,11 @@
 
   /* contato */
 
+  .orcamento {
+    margin-bottom: 0px;
+    height: 880px;
+  }
+
   .orcamento_white {
     margin-top: 40px;
   }
@@ -145,11 +150,28 @@
     margin-top: -175px;
     object-fit: cover;
   }
-}
 
-@media only screen and (max-width: 767px) {
-  .container-nav {
+  /* hamburger e etc */
+
+  nav {
     display: none;
+  }
+
+  header {
+    position: relative;
+  }
+
+  header img {
+    margin-top: 0px;
+  }
+
+  header .container-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px auto;
+    margin-left: 35px;
+    margin-right: 35px;
   }
 
   .one,
@@ -158,40 +180,32 @@
     background-color: #fff;
     height: 4px;
     width: 100%;
-    align-content: space-between;
+    margin: 3px auto;
     border-radius: 6px;
   }
 
-  .one,
-  .two,
-  .three :nth-child(2) {
-    margin: 4px 0;
-  }
-
   .menu-toggle {
-    width: 30px;
-    height: 30px;
-    float: right;
-    margin-right: -70px;
-    margin-top: -38px;
+    width: 25px;
+    height: 21px;
+    align-items: end;
+    align-self: center;
   }
 
   /* fullscreen */
 
   .menu-section.on {
     position: absolute;
-    background-color: #4e1416;
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100vh;
+    background-color: #7e1416;
     z-index: 10;
   }
 
-  .menu-section.on img {
-    display: none;
-  }
-
-  .menu-section.on .container-nav nav {
-    display: block;
-    color: #fff;
+  .menu-section.on .menu-toggle {
+    position: absolute;
+    right: 35px;
+    top: 22px;
   }
 }
